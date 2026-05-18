@@ -1,74 +1,403 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mon Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web Diffusion</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Bienvenue sur mon Portfolio</h1>
-            <nav>
-                <ul>
-                    <li><a href="#about">À propos</a></li>
-                    <li><a href="#projects">Projets</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
 
-    <section id="about" class="section">
-        <div class="container">
-            <h2>À propos de moi</h2>
-            <p>Je suis un designer graphique passionné par la création d'expériences visuelles uniques. Avec plus de 6 ans d'expérience, j'ai travaillé sur divers projets allant des logos aux sites web. Mon objectif est de combiner esthétique et fonctionnalité dans chaque projet.</p>
-        </div>
-    </section>
+  <section class="hero">
 
-    <section id="projects" class="section">
-        <div class="container">
-            <h2>Mes Projets</h2>
-            <div class="project-grid">
-                <div class="project">
-                    <img src="https://via.placeholder.com/300" alt="Projet 1">
-                    <h3>Projet 1</h3>
-                    <p>Description du projet 1.</p>
-                </div>
-                <div class="project">
-                    <img src="https://via.placeholder.com/300" alt="Projet 2">
-                    <h3>Projet 2</h3>
-                    <p>Description du projet 2.</p>
-                </div>
-                <div class="project">
-                    <img src="https://via.placeholder.com/300" alt="Projet 3">
-                    <h3>Projet 3</h3>
-                    <p>Description du projet 3.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+    <!-- Background -->
+    <img src="Vector (8).png" class="bg-shape" alt="">
 
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>Contactez-moi</h2>
-            <form action="#" method="post">
-                <label for="name">Nom :</label>
-                <input type="text" id="name" name="name" required>
-                <label for="email">Email :</label>
-                <input type="email" id="email" name="email" required>
-                <label for="message">Message :</label>
-                <textarea id="message" name="message" required></textarea>
-                <button type="submit">Envoyer</button>
-            </form>
-        </div>
-    </section>
+    <!-- Top Button -->
+    <a href="#" class="top-btn">Devis Gratuit</a>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Mon Portfolio. Tous droits réservés.</p>
+    <div class="container">
+
+      <!-- LEFT -->
+      <div class="left">
+
+        <!-- Logo -->
+        <img src="Asset/img/Group 5 (3).png" class="logo" alt="">
+
+        <h1>
+          Votre entreprise <br>
+          mérite la <span class="yellow">1ère place</span> <br>
+          sur <img src="Asset/img/google 1 (1).png" class="google-logo" alt="">
+        </h1>
+
+        <p class="subtitle">
+          Site web professionnel pour artisans
+        </p>
+
+        <div class="tags">
+          Maçon - plombier - Électricien - Menuisier - Peintre - Couvreur...
         </div>
-    </footer>
+
+        <p class="description">
+          Attirez plus de clients locaux grâce à un site moderne,rapide et optimisé SEO.
+        </p>
+
+        <div class="features">
+
+          <div class="feature">
+            <div class="icon"><img src="Asset/img/image 111.png" alt=""></div>
+            <span>Plus d'appels</span>
+          </div>
+
+          <div class="feature">
+            <div class="icon"><img src="Asset/img/image 112.png" alt=""></div>
+            <span>Visible dans votre ville</span>
+          </div>
+
+          <div class="feature">
+            <div class="icon"><img src="Asset/img/image 113.png" alt=""></div>
+            <span>Référencement Google inclus</span>
+          </div>
+
+        </div>
+
+        <a href="#" class="cta">
+          Je veux mon site artisan professionnel
+        </a>
+
+      </div>
+
+      <!-- RIGHT -->
+      <div class="right">
+
+        <img src="Asset/img/Group 232.png" class="hero-image" alt="">
+        <img src="Asset/img/Vector.png" class="wb" alt="">
+        <img src="Asset/img/Ellipse 23.png" class="df" alt="">
+
+      </div>
+      
+    </div>
+
+  </section>
+  <!-- SECTION SERVICES -->
+
+<section class="services">
+
+  <div class="services-box">
+
+    <div class="service-item">
+      <div class="service-icon"><img src="Asset/img/image 108.png" alt=""></div>
+      <h3>Site professionnel<br>sur mesure</h3>
+    </div>
+
+    <div class="service-item">
+      <div class="service-icon">G</div>
+      <h3>Référencement<br>google inclus</h3>
+    </div>
+
+    <div class="service-item">
+      <div class="service-icon">📱</div>
+      <h3>Compatible<br>mobile & tablette</h3>
+    </div>
+
+    <div class="service-item">
+      <div class="service-icon">🚚</div>
+      <h3>Livraison<br>rapide</h3>
+    </div>
+
+    <div class="service-item">
+      <div class="service-icon">📊</div>
+      <h3>Plus de<br>visibilité locale</h3>
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- SECTION PRESENTATION -->
+
+<section class="presentation">
+
+  <h2>
+    Développez votre <span>activité d'artisan</span><br>
+    avec un site web performant
+  </h2>
+
+  <div class="presentation-grid">
+
+    <div class="presentation-card">
+
+      <h3>Création De Site Pour Artisans</h3>
+
+      <p>
+        présentez vos réalisations, vos services
+        et inspirez confiance à vos futurs clients.
+      </p>
+
+      <img src="Asset/img/Group 235.png" alt="">
+
+    </div>
+
+    <div class="presentation-card">
+
+      <h3>Référencement Google SEO</h3>
+
+      <p>
+        apparaissez devant vos concurrents
+        lorsque vos clients recherchent.
+      </p>
+
+      <img src="seo.png" alt="">
+
+    </div>
+
+  </div>
+
+  <a href="#" class="cta center-btn">
+    Je veux mon site artisan professionnel
+  </a>
+
+</section>
+
+
+<!-- SECTION POURQUOI -->
+
+<section class="why">
+
+  <div class="why-container">
+
+    <h2>Pourquoi Choisir Web Diffusion ?</h2>
+
+    <div class="why-grid">
+
+      <div class="why-card">
+        <div class="why-icon">⭐</div>
+        <h3>Expertise Digitale</h3>
+        <p>spécialistes des sites web qui génèrent des clients.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">🎯</div>
+        <h3>Optimisation Google</h3>
+        <p>soyez trouvé par vos clients près de chez vous.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">🍃</div>
+        <h3>Design Moderne</h3>
+        <p>un site à votre image qui inspire confiance.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">📞</div>
+        <h3>Plus de demandes</h3>
+        <p>transformez les visiteurs en clients.</p>
+      </div>
+
+      <div class="why-card">
+        <div class="why-icon">👤</div>
+        <h3>Accompagnement</h3>
+        <p>un interlocuteur dédié à votre réussite.</p>
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- SECTION PORTFOLIO -->
+
+<section class="portfolio">
+
+  <h2>
+    Des sites conçus pour <span>générer des clients</span>
+  </h2>
+
+  <div class="portfolio-filter">
+
+    <span>⚡ Rapides</span>
+    <span>💻 Modernes</span>
+    <span>G Optimisés Googles</span>
+    <span>🛠️ Adaptée Au Artisans</span>
+
+  </div>
+
+  <div class="portfolio-grid">
+
+    <div class="portfolio-card">
+      <img src="portfolio1.jpg" alt="">
+      <div class="portfolio-content">
+        <h3>Réalisation Site Assainissement</h3>
+      </div>
+    </div>
+
+    <div class="portfolio-card">
+      <img src="portfolio2.jpg" alt="">
+      <div class="portfolio-content">
+        <h3>Réalisation Site Architecture</h3>
+      </div>
+    </div>
+
+    <div class="portfolio-card">
+      <img src="portfolio3.jpg" alt="">
+      <div class="portfolio-content">
+        <h3>Réalisation Site Construction</h3>
+      </div>
+    </div>
+
+    <div class="portfolio-card">
+      <img src="portfolio4.jpg" alt="">
+      <div class="portfolio-content">
+        <h3>Réalisation Site Ophtalmologie</h3>
+      </div>
+    </div>
+
+  </div>
+
+  <a href="#" class="cta center-btn">
+    Je veux mon site artisan professionnel
+  </a>
+
+</section>
+
+<!-- SECTION GOOGLE SEO -->
+
+<section class="google-section">
+
+  <img src="Vector (8).png" class="google-bg-shape" alt="">
+
+  <div class="google-container">
+
+    <!-- LEFT IMAGE -->
+    <div class="google-left">
+
+      <img src="image 93.png" class="google-ranking" alt="">
+
+    </div>
+
+    <!-- CENTER CONTENT -->
+    <div class="google-center">
+
+      <h2>
+        Soyez trouvé avant <br>
+        vos concurrents <br>
+        sur <span>Google</span>
+      </h2>
+
+      <p>
+        Aujourd’hui, la majorité des clients cherchent
+        un artisan directement sur google.
+      </p>
+
+      <div class="google-list">
+
+        <div class="google-item">
+          <span class="red-dot"></span>
+          Si votre entreprise n’apparaît pas :
+          vos concurrents récupèrent les clients à votre place.
+        </div>
+
+        <div class="google-item">
+          <span class="green-dot"></span>
+          Nous créons des sites optimisés SEO pour améliorer
+          votre visibilité locale et attirer plus de demandes.
+        </div>
+
+      </div>
+
+    </div>
+
+    <!-- RIGHT IMAGE -->
+    <div class="google-right">
+
+      <img src="ChatGPT Image 18 mai 2026, 10_45_54 1.png"
+           class="google-worker"
+           alt="">
+
+    </div>
+
+  </div>
+
+</section>
+
+
+<!-- SECTION CONTACT -->
+
+<section class="contact">
+
+  <div class="contact-left">
+
+    <h2>
+      Obtenez un site<br>
+      web <span>qui travaille</span><br>
+      <span>pour vous</span>
+    </h2>
+
+    <div class="contact-features">
+
+      <div class="contact-badge">🟢 Plus de visibilité</div>
+      <div class="contact-badge">🟢 Plus d'appels clients</div>
+      <div class="contact-badge">🟢 Meilleurs positionnement</div>
+      <div class="contact-badge">🟢 Devis gratuits</div>
+      <div class="contact-badge">🟢 Sans engagement</div>
+      <div class="contact-badge">🟢 Réponse sous 24h</div>
+
+    </div>
+
+  </div>
+
+  <div class="contact-right">
+
+    <form>
+
+      <input type="text" placeholder="Votre Nom">
+      <input type="email" placeholder="Votre Email">
+      <input type="text" placeholder="Votre Téléphone">
+
+      <select>
+        <option>Votre Projet</option>
+        <option>Site Web</option>
+        <option>SEO Google</option>
+        <option>Landing Page</option>
+      </select>
+
+      <button type="submit">
+        Je veux mon site artisan professionnel
+      </button>
+
+    </form>
+
+  </div>
+
+</section>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+  <div class="footer-logo">
+    <img src="Group 5 (3).png" alt="">
+  </div>
+
+  <div class="footer-center">
+    <p>web-diffusion.eu</p>
+  </div>
+
+  <div class="footer-contact">
+    <p>📞 Julien Geoffroy</p>
+    <p>06 52 24 95 51</p>
+    <p>contact@web-diffusion.eu</p>
+  </div>
+
+</footer>
+
 </body>
 </html>
