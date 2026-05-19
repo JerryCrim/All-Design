@@ -561,7 +561,7 @@ h1{
 /* SERVICES */
 
 .services{
-  background:#fff;
+  background:#ffffff;
   padding:40px 80px;
 }
 
@@ -802,8 +802,10 @@ h1{
 }
 
 .google-worker{
-  width:100%;
-  max-width:340px;
+    width: 100%;
+    max-width: 340px;
+    top: 125px;
+    position: absolute;
 }
 
 .google-center h2{
@@ -858,11 +860,13 @@ h1{
 }
 
 .google-bg-shape{
-  position:absolute;
-  right:0;
-  top:0;
-  height:100%;
-  opacity:0.12;
+  position: absolute;
+    right: 0;
+    top: 0;
+    height: 79%;
+    opacity: 1.12;
+    width: 10;
+    width: 603px;
 }
 
 /* RESPONSIVE */
