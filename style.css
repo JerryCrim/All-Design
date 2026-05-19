@@ -127,6 +127,145 @@ nav {
     margin-bottom:30px;
 }
 
+----- 
+.cards{
+    display:flex;
+    gap:30px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.card{
+    background:#efefef;
+    border-radius:35px;
+    padding:35px;
+    flex:1;
+    min-width:320px;
+    max-width:550px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.05);
+}
+
+.card-header{
+    display:flex;
+    align-items:flex-start;
+    gap:20px;
+    margin-bottom:30px;
+}
+
+.icon{
+    width:70px;
+    height:70px;
+    border-radius:50%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:32px;
+    color:#fff;
+    flex-shrink:0;
+}
+
+.blue{
+    background:#101c72;
+}
+
+.green{
+    background:#16a34a;
+}
+
+.card-header h2{
+    color:#1f2b7b;
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.card-header p{
+    color:#555;
+    font-size:20px;
+    line-height:1.4;
+}
+
+.website-preview img{
+    width:100%;
+    border-radius:20px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.1);
+}
+
+.seo-content{
+    display:flex;
+    align-items:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.seo-content ul{
+    list-style:none;
+}
+
+.seo-content ul li{
+    margin-bottom:18px;
+    font-size:20px;
+    color:#1f2b7b;
+    position:relative;
+    padding-left:28px;
+}
+
+.seo-content ul li::before{
+    content:"";
+    width:14px;
+    height:14px;
+    background:#22c55e;
+    border-radius:50%;
+    position:absolute;
+    left:0;
+    top:7px;
+}
+
+.google-box{
+    background:#fff;
+    padding:20px;
+    border-radius:25px;
+    flex:1;
+    min-width:260px;
+    box-shadow:0 10px 25px rgba(0,0,0,0.08);
+}
+
+.search-bar{
+    background:#f3f3f3;
+    padding:15px 20px;
+    border-radius:40px;
+    margin-bottom:20px;
+    font-size:20px;
+    color:#666;
+}
+
+.result-box{
+    border:3px solid #22c55e;
+    border-radius:20px;
+    padding:20px;
+}
+
+.result-box h3{
+    color:#1f2b7b;
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.result-box p{
+    color:#555;
+    margin-bottom:10px;
+    font-size:18px;
+}
+
+.result-box span{
+    display:block;
+    margin-bottom:12px;
+    font-size:18px;
+}
+
+.result-box h4{
+    color:#2563eb;
+    font-size:24px;
+}
 /* FEATURES */
 
 .features{
@@ -460,7 +599,7 @@ h1{
 
 .presentation{
   padding:80px;
-  background:#f7f7f7;
+  background:#ffffff;
   text-align:center;
 }
 
@@ -481,7 +620,7 @@ h1{
 }
 
 .presentation-card{
-  background:#fff;
+  background:#f4f4f4;
   padding:30px;
   border-radius:25px;
   box-shadow:0 10px 25px rgba(0,0,0,0.05);
