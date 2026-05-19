@@ -8,12 +8,6 @@
   max-width:1200px;
   margin:auto;
 }
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
-
 body{
     font-family:'Poppins',sans-serif;
     background:#f5f5f5;
@@ -21,7 +15,20 @@ body{
 }
 
 /* HEADER */
-
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 100;
+    padding: 18px 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgba(80, 137, 250, 0);
+    backdrop-filter: blur(16px);
+    border-bottom: 1px solid var(--border);
+}
 .header{
     position:absolute;
     width:100%;
@@ -42,13 +49,15 @@ body{
 }
 
 .top-btn{
-    background:#ff7300;
-    color:#fff;
-    text-decoration:none;
-    padding:14px 30px;
-    border-radius:14px;
-    font-weight:600;
-    transition:.3s;
+    position: absolute;
+    right: 40px;
+    background: #ff7300;
+    color: #fff;
+    text-decoration: none;
+    padding: 14px 28px;
+    border-radius: 16px;
+    font-weight: 600;
+    z-index: 5;
 }
 
 .top-btn:hover{
@@ -262,8 +271,8 @@ body{
 }
 
 .logo{
-  width:104px;
-  margin-bottom:40px;
+  width: 100px;
+  margin-bottom:-5px;
 }
 
 h1{
@@ -365,13 +374,13 @@ h1{
 }
 
 .hero-image{
-  width: 100%;
+  width: 105%;
     max-width: 709px;
     position: relative;
     z-index: 2;
-    top: 141px;
+    top: 132px;
 }
-.wb{
+.hero-imageii{
     width: 100%;
     max-width: 750px;
     position: absolute;
@@ -399,8 +408,8 @@ h1{
 
 .top-btn{
   position:absolute;
-  top:30px;
-  right:40px;
+  top: 17px;
+  right: 30px;
   background:#ff7300;
   color:#fff;
   text-decoration:none;
